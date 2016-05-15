@@ -1,0 +1,91 @@
+问问题: stackoverflow.com
+最新的Android技术趋势 http://androidweekly.net/ （跟上硅谷的节奏）
+
+命名规范:https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
+重点：2.2.1 Fields definition and naming
+Fields should be defined at the top of the file and they should follow the naming rules listed below.
+
+Private, non-static field names start with m.（私有的，非static的成员变量命名要以m开头）
+Private, static field names start with s. （私有的，static的成员变量命名要以s开头）
+Other fields start with a lower case letter. (其他的以小写字母开头)
+Static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES. （静态常量命名全部大写）
+Example:
+
+public class MyClass {//类名以大写开头，不要出现下划线、数字等
+    public static final int SOME_CONSTANT = 42;  //静态常量命名全部大写
+    public int publicField;  //public成员变量以小写字母开头
+    private static MyClass sSingleton;   //私有的，static的成员变量命名要以s开头
+    int mPackagePrivate;  //（默认是私有的）私有的，非static的成员变量命名要以m开头
+    private int mPrivate;  //私有的，非static的成员变量命名要以m开头
+    protected int mProtected;  //protected 非static的成员变量命名要以m开头
+}
+
+android开发一般都使用什么框架？
+版本兼容：官方 support 全家桶
+网络请求：Retrofit、OkHttp、Volley、AsyncHttp
+事件总线：Otto、EventBus
+依赖注入：Dagger2
+图片加载：Fresco、Glide
+响应式：RxAndroid（RxJava）
+Java8：Retrolambda、
+控件注入和事件绑定：Butterknife（配合 ButterKnife Zelezny 有奇效）
+快速开发合集：Afinal、xUtils、Android Annotations
+
+
+RecyclerView的使用：
+http://blog.csdn.net/zhoudailiang/article/details/46709001（简单）
+http://blog.csdn.net/lmj623565791/article/details/45059587 （复杂）
+
+
+Material Design （Google I/O 2014）:
+http://wiki.jikexueyuan.com/project/material-design/(Andriod 开发者必读)
+
+重要的事情说三遍：重点！重点！重点
+Google I/O Android App https://github.com/google/iosched (每年Google/IO 都会更新，Android 开发者必须读的一个app)
+
+
+Android ORMLite 框架的入门用法 http://blog.csdn.net/lmj623565791/article/details/39121377
+
+
+Crash监测和日志收集 https://try.crashlytics.com/ （配置fabric－crashlytics课程http://www.myexception.cn/other/1847353.html）
+
+
+推荐书籍：《Android开发艺术探索》 《Android 源码设计模式解析》 《代码大全》
+
+
+自定义控件属性：
+http://blog.csdn.net/jincf2011/article/details/6344678
+
+国内免费的私有代码仓库托管 https://coding.net/
+
+免费的应用托管平台|App应用众测分发 http://www.pgyer.com/
+
+开源代码网站: code.google.com (需要翻墙)
+
+Git教程
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+Android资源下载网站
+http://www.androiddevtools.cn/
+
+开源项目网站
+https://github.com/Trinea/android-open-project
+http://www.23code.com/
+https://android-arsenal.com/
+
+Android源码搜索：
+http://androidxref.com/
+
+布局资源代码生成：
+http://android.lineten.net/layout.php
+
+开源项目解析:
+http://www.codekk.com/open-source-project-analysis
+
+抓包工具
+Fiddler
+
+开源代码360云盘
+http://yunpan.cn/cJ7P8zEGgJGST  访问密码 4d58
+
+联系方式 QQ 526247082 手机 18823721587(范)
