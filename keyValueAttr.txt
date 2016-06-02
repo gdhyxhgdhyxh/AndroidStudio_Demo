@@ -1,0 +1,18 @@
+<declare-styleable name="KeyValueView">
+        <attr name="kv_show_icon" format="boolean"/>
+        <attr name="kv_icon" format="reference"/>
+        <attr name="kv_icon_left_margin" format="reference|dimension"/>
+
+        <attr name="kv_key" format="reference|string"/>
+        <attr name="kv_key_text_size" format="reference|dimension"/>
+        <attr name="kv_key_left_margin" format="reference|dimension"/>
+
+        <attr name="kv_value" format="reference|string"/>
+        <attr name="kv_value_text_size" format="reference|dimension"/>
+        <attr name="kv_value_right_margin" format="reference|dimension"/>
+
+        <attr name="kv_show_arrow" format="boolean"/>
+        <attr name="kv_arrow_right_margin" format="boolean"/>
+
+        <attr name="kv_show_divider" format="boolean"/>
+    </declare-styleable>
